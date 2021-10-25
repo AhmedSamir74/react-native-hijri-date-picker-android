@@ -7,16 +7,18 @@
 
     <com.github.eltohamy.materialhijricalendarview.MaterialHijriCalendarView
         android:id="@+id/calendarView"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="15dp"
         app:mcv_tileSize="40dp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@android:color/black" />
+        android:background="#D3D3D3" 
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
 
     <Button
         android:id="@+id/done_button"
@@ -24,5 +26,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="?attr/selectableItemBackground"
-        android:text="@string/done" />
+        android:text="@string/submit"/>
 </LinearLayout>
