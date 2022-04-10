@@ -14,10 +14,11 @@ import com.github.eltohamy.materialhijricalendarview.MaterialHijriCalendarView;
 import com.github.eltohamy.materialhijricalendarview.OnDateSelectedListener;
 
 import javax.annotation.Nullable;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.DialogFragment;
 
 import static com.hijridatepicker.HijriDatePickerDialogFragment.customizeHijriCalendarView;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.DialogFragment;
 
 /**
  * Created by Mohamed Habib on 16/10/2016.
